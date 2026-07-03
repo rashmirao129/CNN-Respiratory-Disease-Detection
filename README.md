@@ -24,6 +24,27 @@ deep learning techniques.
 ![Deep Learning](https://img.shields.io/badge/Deep_Learning-purple?style=flat)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-orange?style=flat)
 ![Healthcare AI](https://img.shields.io/badge/Healthcare_AI-blue?style=flat)
+
+### 📊 Dataset
+- Source: Kaggle Chest X-Ray Images dataset
+- Total: 6,432 images (5,144 training / 1,288 testing)
+- Classes: Pneumonia vs Normal
+
+### 🧠 Models Built & Compared
+| Model | Accuracy |
+|-------|----------|
+| Custom CNN (from scratch) | 91.64% |
+| VGG16 (Transfer Learning) | 96.31% |
+| MobileNet (Transfer Learning) | 98.23% ✅ |
+
+### 🛠️ Tech Stack
+- Python 3, Keras, Jupyter Notebook, Anaconda
+- Techniques: Data Augmentation, Dropout, Max-Pooling, Transfer Learning
+- Evaluation: Confusion Matrix, ROC Curve, Precision/Recall/F1-Score
+
+### 📈 Key Results
+- Best accuracy: 98.23% (MobileNet)
+- MobileNet recommended for deployment: lightweight (30MB vs VGG16's 500MB), mobile-compatible
 ### 🏗️ Architecture
 - **Language:** Python
 - **Model:** Convolutional Neural Network (CNN)
