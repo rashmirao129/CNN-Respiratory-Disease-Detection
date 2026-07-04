@@ -23,6 +23,9 @@ deep learning techniques.
 ![Machine Learning](https://img.shields.io/badge/Machine_Learning-green?style=flat)
 ![Deep Learning](https://img.shields.io/badge/Deep_Learning-purple?style=flat)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-orange?style=flat)
+[![Keras](https://img.shields.io/badge/Keras-Deep_Learning-red?style=flat&logo=keras)](https://keras.io)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat&logo=jupyter)](https://jupyter.org)
+[![Anaconda](https://img.shields.io/badge/Anaconda-Environment-green?style=flat&logo=anaconda)](https://anaconda.org)
 ![Healthcare AI](https://img.shields.io/badge/Healthcare_AI-blue?style=flat)
 
 ### 📊 Dataset
