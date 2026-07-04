@@ -28,6 +28,12 @@ deep learning techniques.
 [![Anaconda](https://img.shields.io/badge/Anaconda-Environment-green?style=flat&logo=anaconda)](https://anaconda.org)
 ![Healthcare AI](https://img.shields.io/badge/Healthcare_AI-blue?style=flat)
 
+---
+
+## 🎯 Problem Statement
+
+Diagnosing respiratory diseases from chest X-rays typically requires expert radiologists — a resource that is scarce and expensive, especially in rural healthcare settings. This project builds a deep learning system to automatically classify chest X-ray images into Pneumonia, COVID-19, or Normal categories, enabling faster and more accessible clinical diagnosis.
+
 ### 📊 Dataset
 - Source: Kaggle Chest X-Ray Images dataset
 - Total: 6,432 images (5,144 training / 1,288 testing)
