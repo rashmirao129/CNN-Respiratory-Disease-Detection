@@ -49,6 +49,14 @@ Diagnosing respiratory diseases from chest X-rays typically requires expert radi
 
 **Winner: MobileNet** — highest accuracy AND lightest model (30MB vs VGG16's 500MB), making it suitable for mobile healthcare applications.
 
+### Convolutional Neural Networks (CNN)
+
+CNNs are specifically designed for image recognition tasks.
+
+Unlike traditional neural networks, CNNs automatically learn spatial features such as edges, textures, shapes, and disease-specific patterns from chest X-ray images.
+
+This makes CNNs particularly suitable for detecting respiratory diseases where subtle image abnormalities may indicate conditions such as respiratory disease or COVID-19.
+
 ### Custom CNN — Layer Details
 | Layer | Configuration | Purpose |
 |-------|--------------|---------|
