@@ -61,7 +61,7 @@ Diagnosing respiratory diseases from chest X-rays typically requires expert radi
 | Flatten | — | Converts 2D feature maps to 1D array |
 | Dense | 64 nodes, Dropout 0.25 | Classification layer |
 | Dense | 64 nodes, Dropout 0.50 | Deep classification |
-| Output | Softmax, 3 units | Normal / Pneumonia / COVID-19 |
+| Output | Softmax, 3 units | Normal / Respiratory Disease / COVID-19 |
 
 - **Optimizer:** Adam
 - **Activation:** ReLU (hidden layers) + Softmax (output)
