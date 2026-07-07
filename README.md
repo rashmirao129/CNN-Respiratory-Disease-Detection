@@ -49,6 +49,25 @@ Diagnosing respiratory diseases from chest X-rays typically requires expert radi
 
 **Winner: MobileNet** — highest accuracy AND lightest model (30MB vs VGG16's 500MB), making it suitable for mobile healthcare applications.
 
+### Custom CNN — Layer Details
+| Layer | Configuration | Purpose |
+|-------|--------------|---------|
+| Conv2D (Layer 1) | 32 filters, 3x3, ReLU | Detects basic edges and textures in X-rays |
+| MaxPooling | 2x2 | Reduces dimensions, retains key features |
+| Conv2D (Layer 2) | 64 filters, 3x3, ReLU | Detects complex patterns |
+| MaxPooling | 2x2 | Further dimension reduction |
+| Conv2D (Layer 3) | 128 filters, 3x3, ReLU | Detects high-level disease features |
+| MaxPooling | 2x2 | Final spatial reduction |
+| Flatten | — | Converts 2D feature maps to 1D array |
+| Dense | 64 nodes, Dropout 0.25 | Classification layer |
+| Dense | 64 nodes, Dropout 0.50 | Deep classification |
+| Output | Softmax, 3 units | Normal / Pneumonia / COVID-19 |
+
+- **Optimizer:** Adam
+- **Activation:** ReLU (hidden layers) + Softmax (output)
+- **Dropout:** 0.25 (conv layers) · 0.50 (dense layers) — prevents overfitting
+- **Filter sizes:** 32 → 64 → 128 (progressively deeper feature extraction)
+
 ### 🏗️ Custom CNN Architecture
 
 ```
