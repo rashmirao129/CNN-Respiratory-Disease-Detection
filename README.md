@@ -93,7 +93,7 @@ Dense (64 nodes) → Dropout (0.25)
     ↓
 Dense (64 nodes) → Dropout (0.50)
     ↓
-Output → Softmax (Normal / Pneumonia / COVID-19)
+Output → Softmax (Normal / Respiratory Disease / COVID-19)
 ```
 ### ⚙️ Methodology
 1. **Data Collection** — Downloaded 6,432 labelled chest X-rays from Kaggle
